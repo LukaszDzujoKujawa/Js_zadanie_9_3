@@ -6,4 +6,4 @@ var textTrice = text.replace('Velociraptor', dinosaur);
 
 console.log(textTrice.length);
 
-console.log(textTrice.slice(0, textTrice.length/2));
+console.log(textTrice.slice(0, Math.round(textTrice.length/2)));
